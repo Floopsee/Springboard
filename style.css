@@ -1,0 +1,30 @@
+#game {
+  margin: 0 auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, auto); 
+  gap: 50px;
+}
+
+#colors{
+  height: 125px;
+  width: 125px;
+  background: grey;
+  cursor: pointer;
+  border: 5px solid #000000;
+}
+
+body {
+  background-color: #444444; 
+}
+
+h1 {
+  display: flex; 
+  justify-content: center;
+  font-size: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
